@@ -13,3 +13,7 @@ I will be fine tuning the models on food-11 dataset.
 Requirements:  
 TBA  
 Works on Tensorflow 2.2!  
+
+Resources  
+Transfer learning & fine-tuning [https://keras.io/guides/transfer_learning/]  
+Transfer learning with a pretrained ConvNet [https://www.tensorflow.org/tutorials/images/transfer_learning]  
