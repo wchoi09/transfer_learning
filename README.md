@@ -10,6 +10,20 @@ There are two types of transfer learning:
 
 I will be fine tuning the models on food-11 dataset.  
 
+The directory structure is important.  
+This is how the project tree will look like:  
+```bash
+transfer_learning
+|-- dataset               
+|   |-- evaluation                  # containes 11 sub-directories of classes
+|   |-- training                    # containes 11 sub-directories of classes
+|   `-- validation                  # containes 11 sub-directories of classes
+|-- model                           # directory for saving model.h5 after training has completed
+|-- output                          # directory for saving plot.png after training has completed
+`-- fine_tuning_train_custom.py     # main python script for training (fine tuning)
+```
+
+
 Requirements:  
 TBA  
 Works on Tensorflow 2.2!  
